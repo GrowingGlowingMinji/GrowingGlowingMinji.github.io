@@ -1,0 +1,61 @@
+url: https://GrowingGlowingMinji.github.io
+baseurl: /
+favicon: assets/built/images/favicon.jpg
+production_url: https://GrowingGlowingMinji.github.io/
+# 최종적으로 blog가 운영될 url
+
+# source_url: https://github.com/GrowingGlowingMinji/GitHubPageMaker/
+# blogmaker(jekyll source folder)에 대한 github repository
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - [jekyll-sitemap, jekyll-paginate, jekyll-feed, jekyll-gist]
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
+
+destination: ../[GitHubPage]/
+# compile된 결과가 생성되는 폴더
+# 이 폴더안의 내용이 우리가 운영하는 블로그 내용이 컴파일되서 들어간다.
+# 이 폴더안의 내용을 github repository(https://username.github.io)에 push
+# 만약 Travis-CI를 이용할 예정이면 이 부분을 git submodule로
+# github repository(https://username.github.io)에 연결해야 한다.
+
+# exclude는 Jekyll컴파일 시 destination에 포함될 필요가
+# 없는것들을 명시한다. (node_modules와 필요없는 것들은 제외)
+
+# Pages Path
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+sass:
+  sass_dir: assets/scss
+  style: compressed
+
+# Social info
+navigation: True
+# Navigation bar link를 보여줄건지 여부
+
+subscribers: True
+# subscriber 기능을 사용할건지의 여부
+# 저는 약간의 수정을 통해 subscriber 기능대신
+# lunr.js를 이용한 검색 기능으로 대체 사용했습니다.
+# 검색기능으로 대체하기 위해서
+# `_includes/subscribe-form.html` 파일의 수정이 필요합니다.
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.text
+  - README.md
+  - SECURITY.md
