@@ -32,7 +32,7 @@
 .font-description {
   font-family: $description-font !important;
 }
-@media (max-width: 900px) {
+@media (max-width: 991px) {
   .disaplay-none {
     display: none;
   }
@@ -41,6 +41,9 @@
   }
   .size-logo {
     width: 100px !important;
+  }
+  .navigation {
+    padding: 0 20px;
   }
 }
 
