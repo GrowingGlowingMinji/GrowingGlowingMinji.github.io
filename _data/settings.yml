@@ -42,8 +42,8 @@ hero:
   hero-title: Hi! I’m <br> Minji, <br> Product Manager 
 
 social:
-  - { icon: "ti-linkedin", link: "https://www.linkedin.com/in/minjiparkconfident/" }
-  - { icon: "ti-github", link: "https://github.com/GrowingGlowingMinji"}
+  - { icon: "ti-linkedin", link: "https://www.linkedin.com/in/minjiparkconfident/", target: "_blank" }
+  - { icon: "ti-github", link: "https://github.com/GrowingGlowingMinji", target: "_blank" }
 
 
 #-------------------------------
