@@ -37,7 +37,10 @@
     display: none;
   }
   .container-margin {
-    padding-top: 10%;
+    padding-top: 20%;
+  }
+  .size-logo {
+    width: 130px !important;
   }
 }
 
@@ -66,6 +69,6 @@
   top: 50%;
   margin-top: -231px;
 }
-.logosize {
+.size-logo {
   width: 180px;
 }
