@@ -2,13 +2,13 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: Growing Glowing Minji
 logo:
-author: themefisher
+author: Minji Park
 description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
+email: helenamj121@gmail.com
+# linkedin: https://www.linkedin.com/in/minjiparkconfident/
+address: Seoul, Republic Of Korea
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
@@ -38,22 +38,34 @@ disqus-identifier: growingglowingminji-github-io
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> Minji, <br> Product Manager 
 
 social:
-  - { icon: "ti-facebook", link: "#" }
-  - { icon: "ti-instagram", link: "#" }
-  - { icon: "ti-dribbble", link: "#" }
-  - { icon: "ti-twitter", link: "#" }
+  - { icon: "ti-linkedin", link: "https://www.linkedin.com/in/minjiparkconfident/" }
+  - { icon: "ti-instagram", link: "https://www.instagram.com/love_minself/" }
+
 
 #-------------------------------
 # About (Section and Page)
 
 # About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+blurb: Hi, I'm Minji Park from South Korea. I'm an enthusiastic and driven undergraduate, who is ........
+Having experiences working at foreign company in the Marketing and Business Development department.
+A fast learner having a go-getter attitude and high willing to trying new activities in various fields.
+Good computer technical skills and design skills.
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
+
+#-------------------------------
+# Skills Section
+
+skills-title: Skills
+skills:
+  - { name: Web Design, color: "#fdb157", value: "90%" }
+  - { name: Logo Design, color: "#9473e6", value: "60%" }
+  - { name: After Effects, color: "#bdecf6", value: "80%" }
+  - { name: Web App, color: "#ffbcaa", value: "70%" }
 
 # About Page
 
@@ -85,15 +97,7 @@ team:
     image: "assets/images/team/member-3.png"
     designation: "Designer"
 
-#-------------------------------
-# Skills Section
 
-skills-title: Skills
-skills:
-  - { name: Web Design, color: "#fdb157", value: "90%" }
-  - { name: Logo Design, color: "#9473e6", value: "60%" }
-  - { name: After Effects, color: "#bdecf6", value: "80%" }
-  - { name: Web App, color: "#ffbcaa", value: "70%" }
 
 #-------------------------------
 # Exprerience Section
@@ -302,4 +306,4 @@ client-slider-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: helenamj121@gmail.com
