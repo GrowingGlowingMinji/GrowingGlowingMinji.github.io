@@ -3,7 +3,7 @@
 # General Site Settings
 
 title: Growing Glowing Minji
-logo: "assets\images\about\Logo-white.png"
+logo: "/assets/images/about/Logo-white.png"
 author: Minji Park
 description: this is meta description
 email: helenamj121@gmail.com
