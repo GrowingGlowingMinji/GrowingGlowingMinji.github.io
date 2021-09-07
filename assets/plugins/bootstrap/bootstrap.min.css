@@ -560,6 +560,9 @@ pre code {
   .container {
     max-width: 540px;
   }
+  .container-margin {
+    margin-bottom: 35%;
+  }
 }
 @media (min-width: 768px) {
   .container {

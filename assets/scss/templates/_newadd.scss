@@ -22,8 +22,6 @@
   position: absolute;
   left: 0%;
   right: 0%;
-  bottom: 10%;
-  margin-top: 118px;
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
@@ -34,8 +32,27 @@
 .font-description {
   font-family: $description-font !important;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .disaplay-none {
     display: none;
   }
+}
+
+@media (max-width: 576px) {
+  .text-disaplay-none {
+    display: none;
+  }
+}
+
+.col-lg-text {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  padding-bottom: 10%;
+  -ms-flex: 0 0 83.333333%;
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
 }
