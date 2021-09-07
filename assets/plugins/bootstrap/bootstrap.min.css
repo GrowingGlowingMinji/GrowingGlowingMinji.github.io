@@ -453,18 +453,7 @@ hr {
   max-width: 100%;
   height: auto;
 }
-.flex-parent {
-  display: flex;
-}
 
-.flex-child {
-  flex: 1;
-}
-
-.forward {
-  position: relative;
-  z-index: 2;
-}
 .small,
 small {
   font-size: 80%;
