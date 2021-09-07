@@ -18,3 +18,19 @@
 .padding-left-100 {
   padding-left: 100px;
 }
+.text-description {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  margin-top: 118px;
+  font-family: Hi Melody;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 167%;
+  text-align: center;
+}
+
+.font-description {
+  font-family: $description-font !important;
+}
